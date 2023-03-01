@@ -13,8 +13,8 @@ workspace := workspace
 binary := pro
 
 # 定义头文件库文件和链接目标，后面用foreach一次性增加
-include_paths := /usr/local/cuda-11.7/include src
-library_paths := /usr/local/cuda-11.7/lib64
+include_paths := /usr/local/cuda-11.4/include src
+library_paths := /usr/local/cuda-11.4/lib64
 link_librarys := cudart
 
 # 定义编译选项
